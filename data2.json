@@ -1,0 +1,67 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "Help",
+     "patterns": ["help","eyecheckup"],
+     "responses": ["ok"],
+     "context": [""]
+    },
+    {"tag": "Checking",
+    "patterns": ["check"],
+    "responses": ["mk"],
+    "context": [""]
+   },
+   {"tag": "Process",
+   "patterns": ["proceed"],
+   "responses": ["lk"],
+   "context": [""]
+  },
+  {"tag": "Yes",
+  "patterns": ["yes","YES","YeS","YEs","Yes","Eyocare","eyocare","what is eyocare","EYOCARE","EyoCare"],
+  "responses": ["EyoCare is a medicare Chatbot that will assist you in identifying eye-related issues and provide recommendations. The purpose of this chatbot is to raise awareness and suggest that you consult an eye care specialist at the right time, if needed. This chatbot is capable of recognizing various eye conditions such as  Cataracts, Jaundice and Strabismus. However, please note that this chatbot can only provide a topic of discussion and is not a substitute for professional medical advice. Therefore, whenever you experience any eye-related problems, it is always important to consult a healthcare professional."],
+  "context": [""]
+ },
+ {"tag": "No",
+  "patterns": ["no","NO","No","nO"],
+  "responses": ["Sure!! Then how can i help you"],
+  "context": [""]
+ },
+    
+   
+    {"tag": "Cataract",
+    "patterns": ["cataract", "What is cataract", "can you tell me something about cataract" ],
+    "responses": ["Cataract is a common eye condition characterized by the clouding of the lens, which leads to blurry vision and, if left untreated, can eventually cause vision loss. The lens of the eye is normally clear and allows light to pass through to the retina, where it is converted into visual signals sent to the brain. However, with cataracts, the lens becomes cloudy, obstructing the passage of light and causing visual impairment."],
+    "context": [""]
+   },
+    {"tag": "Jaundice",
+     "patterns": ["jaundice", "what is jaundice", "can you tell me something about jaundice" ],
+     "responses": ["Jaundice is a medical condition characterized by yellowing of the skin, eyes, and mucous membranes. It occurs when there is an excess buildup of bilirubin in the body, a yellow pigment produced during the breakdown of red blood cells. Normally, the liver processes bilirubin and excretes it through bile, which is then eliminated from the body through feces. However, when something disrupts this process, bilirubin can accumulate, leading to jaundice.The main symptom of jaundice is the yellow discoloration of the skin, eyes, and mucous membranes. Depending on the underlying cause, individuals with jaundice may also experience other symptoms such as fatigue, abdominal pain, dark urine, pale stools, fever, and itching."],
+     "context": [""]
+    },
+    {"tag": "Strabismus",
+    "patterns": ["Strabismus", "what is Strabismus", "can you tell me something about Strabismus" ],
+    "responses": [" Strabismus, commonly referred to as crossed eyes or squint, is a visual condition in which the eyes do not align properly. It occurs when the eye muscles that control eye movement and alignment do not work together correctly, causing one eye to look in a different direction than the other. As a result, the eyes may appear misaligned or one eye may turn inward, outward, upward, or downward while the other remains focused straight ahead."],
+    "context": [""]
+   }
+
+    
+]
+}
